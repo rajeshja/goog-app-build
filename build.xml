@@ -282,7 +282,7 @@
 	<target name="dist.war" depends="build-war">
 		<copy todir="${dist.war.path}">
 			<fileset dir="${build.web.dir}"/>
-			<fileset dir="${config.server.dir}"/>
+			<!-- fileset dir="${config.server.dir}"/ -->
 		</copy>
 	</target>
 
